@@ -25,6 +25,14 @@ instance=/home
 command=/usr/lib/i3blocks/disk
 interval=30
 color=#859900
+separator=false
+
+[disk-external]
+label=☠
+instance=/external
+command=/usr/lib/i3blocks/disk
+interval=30
+color=#50C878
 
 [ssid]
 label=
